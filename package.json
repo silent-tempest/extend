@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "argument-exception": "file:///home/silent/git/lib/argument-exception",
-    "logical-error": "file:///home/silent/git/lib/logical-error"
+    "argument-exception": "silent-tempest/argument-exception#master",
+    "logical-error": "silent-tempest/logical-error#master"
   },
   "main": "index.js",
   "keywords": [
