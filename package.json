@@ -1,0 +1,15 @@
+{
+  "name": "super-extend",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "argument-exception": "file:///home/silent/git/lib/argument-exception",
+    "logical-error": "file:///home/silent/git/lib/logical-error"
+  },
+  "main": "index.js",
+  "keywords": [
+    "super-extend"
+  ],
+  "author": "SILENT",
+  "license": "MIT"
+}
