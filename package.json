@@ -1,15 +1,35 @@
 {
-  "name": "super-extend",
+  "name": "extend",
   "version": "1.0.0",
-  "description": "",
-  "dependencies": {
-    "argument-exception": "silent-tempest/argument-exception#master",
-    "logical-error": "silent-tempest/logical-error#master"
+  "scripts": {
+    "prepublish": "npm run lint && npm run test && npm run docs",
+    "test": "mocha -r chai/register-should",
+    "docs": "jsdoc -d docs .",
+    "lint": "jshint ."
   },
   "main": "index.js",
-  "keywords": [
-    "super-extend"
-  ],
   "author": "SILENT",
-  "license": "MIT"
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "jsdoc": "^3.5.5",
+    "jshint": "^2.9.6",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "utils": "silent-tempest/utils#master"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-tempest/extend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silent-tempest/extend/issues"
+  },
+  "homepage": "https://github.com/silent-tempest/extend#readme",
+  "description": ""
 }
